@@ -193,7 +193,7 @@ const projects = [
         tags: ["Python","Tkinter","OpenCV","Pillow","pyYAML","YOLO"], 
         date: "2025/12 ~ 2026/02", 
         url: "https://github.com/HR0620/ATM-simulator.git",
-        image: "../images/atm_icon.png"
+        image: "images/atm_icon.png"
     },
 ];
 
@@ -340,7 +340,47 @@ const devTools = [
                 frequency: "Used when necessary."
             }
         }
-    }
+    },
+    {
+        id: 'deeds',
+        name: 'Deeds',
+        iconType: 'fontawesome',
+        icon: 'fa-solid fa-bolt',
+        frequency_text: {
+            ja: "週1回以上",
+            en: "1+ times/week"
+        },
+        details: {
+            ja: {
+                summary: "論理回路の授業で使用しているエディタです。",
+                frequency: "週1回以上使っています。"
+            },
+            en: {
+                summary: "The editor I use most frequently for logical circuit class.",
+                frequency: "Used more than 1 times a week."
+            }
+        }
+    },
+    {
+        id: 'wireshark',
+        name: 'Wireshark',
+        iconType: 'original',
+        icon: 'https://img.shields.io/badge/-Wireshark-00979D?style=for-the-badge&logo=wireshark&logoColor=white',
+        frequency_text: {
+            ja: "必要な時に使用",
+            en: "Used as needed"
+        },
+        details: {
+            ja: {
+                summary: "ネットワークの授業で使用しています。",
+                frequency: "必要に応じて使用します。"
+            },
+            en: {
+                summary: "The editor I use most frequently for network class.",
+                frequency: "Used when necessary."
+            }
+        }
+    },
 ];
 
 // コンタクト情報
