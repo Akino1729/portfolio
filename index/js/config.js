@@ -167,7 +167,7 @@ const projects = [
             en: "A game inspired by 'Only Up,' officially recognized by homeroom teacher Muroya-sensei, exhibited at the Kosen Festival." 
         }, 
         tags: ["python","pygame"], 
-        date: "2025/11/8,9", 
+        date: "2025/10 ~ 2025/11", 
         url: "../projects/kosen-fes/2025/index.html",
         image: "images/hisayoshi_thumbnail.png"
     },
@@ -179,21 +179,21 @@ const projects = [
             en: "A project created in Programming 1 class." 
         }, 
         tags: ["python","Numpy"],
-        date: "2025/04-2026/03", 
+        date: "2025/04 ~ 2026/03", 
         url: "../projects/class/programming-1/index.html",
         image: 'fa-solid fa-laptop-code'
     },
     { 
         id: "p3", 
-        title: { ja: "ATMシミュレータ", en: "ATM Simulator" }, 
+        title: { ja: "AI-based Touchless Machine (ATM)", en: "AI-based Touchless Machine (ATM)" }, 
         desc: { 
-            ja: "画像認識(Teachable Machine)を使用してATMの操作を模倣したアプリ", 
-            en: "An ATM simulator app that uses image recognition (Teachable Machine)." 
+            ja: "画像認識(YOLO)とTkinterを使用してATMの遠隔タッチ操作を実現したアプリ。", 
+            en: "An ATM simulator app that uses image recognition (YOLO) and Tkinter to realize remote touch operation of ATM." 
         }, 
-        tags: ["python","tkinter","teachable machine","open cv","Pillow","pyYAML","h5py","tensor flow"], 
-        date: "2025/12/25,2026/01/18", 
+        tags: ["Python","Tkinter","OpenCV","Pillow","pyYAML","YOLO"], 
+        date: "2025/12 ~ 2026/02", 
         url: "https://github.com/HR0620/ATM-simulator.git",
-        image: "fa-solid fa-sack-dollar"
+        image: "../images/atm_icon.png"
     },
 ];
 
