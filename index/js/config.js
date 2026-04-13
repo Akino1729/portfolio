@@ -104,7 +104,7 @@ const timelineData = [
         }
     },
     { 
-        year: "現在", 
+        year: "2026/04 ~", 
         type: 'history', 
         title: { 
             ja: "同校 同コース 在学中", 
@@ -189,7 +189,7 @@ const certificationsData = [
           ja: "一般社団法人 日本ディープラーニング協会",
           en: "Japan Deep Learning Association"
       },
-      date: "2026/01"
+      date: "2026/02"
     },
 ];
 
