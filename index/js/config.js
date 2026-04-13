@@ -35,8 +35,8 @@ const timelineData = [
         year: "2025/03", 
         type: 'history',
         title: { 
-            ja: "学生有志団体PINTO OMUCT 所属", 
-            en: "Joined PINTO OMUCT" 
+            ja: "学生団体　ぴんと所属",
+            en: "Joined PINTO" 
         }, 
         description: { 
             ja: "", 
@@ -47,7 +47,7 @@ const timelineData = [
         year: "2025/04", 
         type: 'history',
         title: { 
-            ja: "知能情報コース 進学", 
+            ja: "知能情報コース　進学", 
             en: "Advanced to Intelligent Informatics Course" 
         }, 
         description: { 
@@ -79,8 +79,32 @@ const timelineData = [
             en: "Participated as guidance and reception staff, interacting with developers selected for the MITOU program." 
         }
     },
+    {
+        year: "2026/04",
+        type: 'history',
+        title: {
+            ja: "学生団体ぴんと執行役就任",
+            en: "Elected as an executive member of PINTO"
+        },
+        description: {
+            ja: "「大阪　de PINTO!」のイベント企画や運営を担当。",
+            en: "Responsible for planning and organizing the 'Osaka de PINTO!' event."
+        }
+    },
+    {
+        year: "2026/04",
+        type: 'history',
+        title: {
+            ja: "知能情報コース３年に進級",
+            en: "Advanced to 3rd year in Intelligent Informatics Course"
+        },
+        description: {
+            ja: "",
+            en: ""
+        }
+    },
     { 
-        year: "2025 - 現在", 
+        year: "現在", 
         type: 'history', 
         title: { 
             ja: "同校 同コース 在学中", 
@@ -90,7 +114,7 @@ const timelineData = [
             ja: "", 
             en: "" 
         }
-    }
+    },
 ];
 
 // 資格データ
@@ -153,7 +177,19 @@ const certificationsData = [
             ja: "独立行政法人 情報処理推進機構(IPA)", 
             en: "Information-technology Promotion Agency (IPA)" 
         },
-        date: "2026/1"
+        date: "2026/01"
+    },
+    {
+      id: "cert6",
+      name: {
+          ja: "G検定（ジェネラリスト検定）2026#1",
+          en: "JDLA Deep Learning for GENERAL 2026#1"
+      },
+      organization: {
+          ja: "一般社団法人 日本ディープラーニング協会",
+          en: "Japan Deep Learning Association"
+      },
+      date: "2026/01"
     },
 ];
 

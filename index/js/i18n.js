@@ -5,14 +5,14 @@ const i18n = {
     ja: {
         title: "HRのポートフォリオ",
         meta: "これまでに制作したプロジェクトを紹介しています。",
-        header_name: "HR",
-        header_title: "公大高専-I / 2年",
+        header_name: "秋ノ漆草",
+        header_title: "公大高専-I / ３年",
         link_detail: "詳細",
         
         // About Me
         about_title: "About Me",
         about_meta: "",
-        about_content: "大阪公立大学工業高等専門学校 総合工学システム学科 知能情報(I)コース在学中の2年生です。プログラミングやWeb開発に興味があり、日々学習を続けています。趣味はゲーム(幅広く)と勉強です。",
+        about_content: "大阪公立大学工業高等専門学校 総合工学システム学科 知能情報(I)コース在学中の３年生です。プログラミングやWeb開発、画像処理・認識に興味があり、日々学習を続けています。趣味はゲーム(幅広く)と勉強です。",
         
         // Timeline
         timeline_title: "沿革",
@@ -59,13 +59,13 @@ const i18n = {
         title: "Harada Renju's Portfolio",
         meta: "Showcasing the projects I have worked on.",
         header_name: "Renju Harada",
-        header_title: "OMUCT-I / Grade 2",
+        header_title: "OMUCT-I / Grade 3",
         link_detail: "Details",
         
         // About Me
         about_title: "About Me",
         about_meta: "Introduction",
-        about_content: "I'm a 2nd year student at Osaka Metropolitan University College of Technology(OMUCT),Dept. of Technological Systems, Intelligent Informatics Course. I'm interested in programming and web development, and I'm constantly learning. My hobbies include playing game and studying anything.",
+        about_content: "I'm a 3rd year student at Osaka Metropolitan University College of Technology(OMUCT),Dept. of Technological Systems, Intelligent Informatics Course. I'm interested in programming and web development, and I'm constantly learning. My hobbies include playing game and studying anything.",
         
         // Timeline
         timeline_title: "My Journey",
